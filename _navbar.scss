@@ -1,0 +1,39 @@
+@import './constants';
+
+.nav-bar { 
+    background-color: red;  
+    display: flex; 
+    justify-content: space-between;  
+    align-items: center;
+    height: 6.75rem; 
+    background-color: white; 
+    border-bottom: 1px solid rgb(233, 233, 233);
+    padding: 0 20%;
+
+    .nav-bar-logo { 
+        //background-image: url(https://news.codecademy.com/content/images/2018/06/blog-logo-3.svg); 
+        // height: auto; 
+        // width: 10rem; 
+        object-fit: fill;   
+        font-size: 3rem; 
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 500;
+    } 
+
+    .nav-bar-links { 
+        a {
+            text-decoration: none; 
+            font-size: 1rem; 
+            font-weight: 700; 
+            color: $primaryTextColor;  
+            margin-right: 2.5rem;
+            word-spacing: 0.03rem; 
+            letter-spacing: 0.03rem; 
+            opacity: 0.8; 
+
+            &:hover { 
+                color: $hoverTextColor;
+            }
+        }
+    }
+}
