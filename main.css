@@ -13,6 +13,7 @@
   background-color: white;
   border-bottom: 1px solid #e9e9e9;
   padding: 0 20%;
+  margin-bottom: 10rem;
 }
 
 .nav-bar .nav-bar-logo {
@@ -36,6 +37,76 @@
 
 .nav-bar .nav-bar-links a:hover {
   color: #6400E4;
+}
+
+.date-header-intro-image {
+  margin: 5rem 27%;
+}
+
+.date-header-intro-image .date {
+  color: #141C3A;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.date-header-intro-image .date span {
+  color: #7AF0C8;
+  font-weight: 900;
+  margin: 0 0.3rem;
+}
+
+.date-header-intro-image .header {
+  margin: 0 -5rem;
+  font-size: 4.5rem;
+  color: #141C3A;
+  font-weight: 700;
+  margin-bottom: 9rem;
+  text-align: center;
+}
+
+.date-header-intro-image .intro {
+  margin: 2rem 0;
+  font-size: 2.75rem;
+  color: #32383e;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 4.5rem;
+  text-align: start;
+}
+
+.date-header-intro-image .intro-image {
+  background: url(./images/front-end-to-back-end-transition.png) no-repeat;
+  margin: 4rem 0;
+  margin-left: -15rem;
+  margin-right: -15rem;
+  background-position: center;
+  background-size: 100%;
+  height: 45rem;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.date-header-intro-image .image-description {
+  margin: 2rem 0;
+  color: #5b676e;
+  font-size: 2.2rem;
+  line-height: 3.5rem;
+}
+
+.date-header-intro-image .image-description a {
+  color: #4B35EF;
+}
+
+.date-header-intro-image .quote-image {
+  background: url(./images/arnav-luthra-back-end-development.png);
+  margin: 5rem 0;
+  background-position: center;
+  background-size: 100%;
+  height: 25rem;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 * {

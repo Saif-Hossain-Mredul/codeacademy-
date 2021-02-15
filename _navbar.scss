@@ -8,7 +8,8 @@
     height: 6.75rem; 
     background-color: white; 
     border-bottom: 1px solid rgb(233, 233, 233);
-    padding: 0 20%;
+    padding: 0 20%; 
+    margin-bottom: 10rem;
 
     .nav-bar-logo { 
         //background-image: url(https://news.codecademy.com/content/images/2018/06/blog-logo-3.svg); 
@@ -29,7 +30,7 @@
             margin-right: 2.5rem;
             word-spacing: 0.03rem; 
             letter-spacing: 0.03rem; 
-            opacity: 0.8; 
+            opacity: 0.8;  
 
             &:hover { 
                 color: $hoverTextColor;
