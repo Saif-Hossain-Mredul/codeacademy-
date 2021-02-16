@@ -237,15 +237,24 @@
   margin-right: 1.3rem;
 }
 
-.comments-discussion .comment-discussion-bar .comment .icon {
-  margin-right: 0.5rem;
-  font-size: 2rem;
+.comments-discussion .comment-discussion-bar .comment .comment-discussion-item a {
+  text-decoration: none;
+  color: #5e7078;
 }
 
-.comments-discussion .comment-discussion-bar .comment .active {
+.comments-discussion .comment-discussion-bar .comment .comment-discussion-item a:hover {
+  color: black;
+}
+
+.comments-discussion .comment-discussion-bar .comment .comment-discussion-item .active {
   color: black;
   padding-bottom: 1rem;
   border-bottom: 2px solid #6400E4;
+}
+
+.comments-discussion .comment-discussion-bar .comment .icon {
+  margin-right: 0.5rem;
+  font-size: 2rem;
 }
 
 .comments-discussion .comment-discussion-bar .login-dropdown .dropdown {
@@ -257,7 +266,7 @@
 .comments-discussion .comment-discussion-bar .login-dropdown .icon {
   margin-right: 0.5rem;
   font-size: 1.8rem;
-  color: #F05F70;
+  color: #f05f70;
 }
 
 .comments-discussion .share-bar {
@@ -285,11 +294,11 @@
 }
 
 .comments-discussion .share-bar .share-bar-left-side .recommend .heart {
-  color: #F05F70;
+  color: #f05f70;
 }
 
 .comments-discussion .share-bar .share-bar-left-side .twitter {
-  background: #18B2F0;
+  background: #18b2f0;
   color: white;
   padding: 0.2rem 0.5rem;
   border-radius: 3px;
@@ -297,7 +306,7 @@
 }
 
 .comments-discussion .share-bar .share-bar-left-side .facebook {
-  background: #3B5998;
+  background: #3b5998;
   color: white;
   padding: 0.2rem 0.5rem;
   border-radius: 3px;
@@ -319,7 +328,7 @@
 .comments-discussion .discussion .discussion-icon {
   height: 5rem;
   width: 5rem;
-  background-color: #E2E7EA;
+  background-color: #e2e7ea;
   display: -ms-grid;
   display: grid;
   position: relative;
@@ -331,7 +340,7 @@
   position: absolute;
   bottom: 0;
   font-size: 5rem;
-  color: #939EA7;
+  color: #939ea7;
 }
 
 .comments-discussion .discussion .discussion-input .input {
@@ -340,7 +349,7 @@
   border: 2px solid #bcc0c2;
   width: 79rem;
   font-size: 2rem;
-  color: #939EA7;
+  color: #939ea7;
 }
 
 * {
