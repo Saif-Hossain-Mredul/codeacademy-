@@ -213,6 +213,53 @@
   border-color: #6400E4;
 }
 
+.comments-discussion {
+  margin: 5rem 23%;
+  width: 85rem;
+}
+
+.comments-discussion .comment-discussion-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 2px solid #ebebeb;
+  padding-bottom: 1rem;
+}
+
+.comments-discussion .comment-discussion-bar .comment .comment-discussion-item {
+  color: #5e7078;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 1rem 0rem;
+  margin-right: 1.3rem;
+}
+
+.comments-discussion .comment-discussion-bar .comment .icon {
+  margin-right: 0.5rem;
+  font-size: 2rem;
+}
+
+.comments-discussion .comment-discussion-bar .comment .active {
+  color: black;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #6400E4;
+}
+
+.comments-discussion .comment-discussion-bar .login-dropdown .dropdown {
+  color: #5e7078;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.comments-discussion .comment-discussion-bar .login-dropdown .icon {
+  margin-right: 0.5rem;
+  font-size: 1.8rem;
+  color: #F05F70;
+}
+
 * {
   margin: 0;
   padding: 0;
