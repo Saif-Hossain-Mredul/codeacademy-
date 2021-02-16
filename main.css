@@ -1,5 +1,4 @@
 .nav-bar {
-  background-color: red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -56,7 +55,7 @@
 }
 
 .date-header-intro-image .date span {
-  color: #7AF0C8;
+  color: #7af0c8;
   font-weight: 900;
   margin: 0 0.3rem;
 }
@@ -94,13 +93,15 @@
 
 .date-header-intro-image .image-description {
   margin: 2rem 0;
-  color: #5b676e;
+  color: #3e464a;
   font-size: 2.2rem;
   line-height: 3.5rem;
 }
 
 .date-header-intro-image .image-description a {
   color: #4B35EF;
+  text-decoration: none;
+  border-bottom: 1px solid #4B35EF;
 }
 
 .date-header-intro-image .quote-image {
@@ -111,6 +112,45 @@
   height: 25rem;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.description {
+  margin: 5rem 27%;
+}
+
+.description .header {
+  font-size: 3.3rem;
+  color: #141C3A;
+  font-weight: 700;
+}
+
+.description .content {
+  margin: 2rem 0;
+  color: #3e464a;
+  font-size: 2.2rem;
+  line-height: 3.5rem;
+}
+
+.description .content a {
+  color: #4B35EF;
+  text-decoration: none;
+  border-bottom: 1px solid #4B35EF;
+}
+
+.description ul {
+  padding-left: 2.7rem;
+}
+
+.description ul li {
+  font-size: 2.2rem;
+  line-height: 4rem;
+  color: #3e464a;
+}
+
+.description ul li a {
+  color: #4B35EF;
+  text-decoration: none;
+  border-bottom: 1px solid #4B35EF;
 }
 
 * {

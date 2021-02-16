@@ -1,71 +1,71 @@
-@import './constants'; 
+@import './constants';
 
-.date-header-intro-image { 
-    margin: 5rem 27%; 
-     
+.date-header-intro-image {
+	margin: 5rem 27%;
 
-    .date { 
-        color: $primaryTextColor; 
-        font-size: 1.4rem;
-        font-weight: 600; 
-        margin: 2rem 0; 
-        text-align: center;
+	.date {
+		color: $primaryTextColor;
+		font-size: 1.4rem;
+		font-weight: 600;
+		margin: 2rem 0;
+		text-align: center;
 
-        span { 
-            color: #7AF0C8; 
-            font-weight: 900; 
-            margin: 0 0.3rem;
-        }
-    } 
+		span {
+			color: #7af0c8;
+			font-weight: 900;
+			margin: 0 0.3rem;
+		}
+	}
 
-    .header { 
-        margin: 0 -5rem;
-        font-size: 4.5rem; 
-        color: $primaryTextColor; 
-        font-weight: 700; 
-        margin-bottom: 9rem;
-        text-align: center; 
-        
-    } 
+	.header {
+		margin: 0 -5rem;
+		font-size: 4.5rem;
+		color: $primaryTextColor;
+		font-weight: 700;
+		margin-bottom: 9rem;
+		text-align: center;
+	}
 
-    .intro {  
-        margin: 2rem 0;
-        font-size: 2.75rem; 
-        color: #32383e;
-        font-weight: 400; 
-        font-style: italic; 
-        line-height: 4.5rem; 
-        text-align: start;
-    } 
+	.intro {
+		margin: 2rem 0;
+		font-size: 2.75rem;
+		color: #32383e;
+		font-weight: 400;
+		font-style: italic;
+		line-height: 4.5rem;
+		text-align: start;
+	}
 
-    .intro-image { 
-        background: url(./images/front-end-to-back-end-transition.png) no-repeat; 
-        margin: 4rem 0;   
-        margin-left: -15rem;
-        margin-right: -15rem;
-        background-position: center; 
-        background-size: 100%;
-        height: 45rem; 
-        object-fit: fill; 
-    }
+	.intro-image {
+		background: url(./images/front-end-to-back-end-transition.png) no-repeat;
+		margin: 4rem 0;
+		margin-left: -15rem;
+		margin-right: -15rem;
+		background-position: center;
+		background-size: 100%;
+		height: 45rem;
+		object-fit: fill;
+	}
 
-    .image-description { 
-        margin: 2rem 0;
-        color: $greyTextColor; 
-        font-size: 2.2rem; 
-        line-height: 3.5rem;  
+	.image-description {
+		margin: 2rem 0;
+		color: $greyTextColor;
+		font-size: 2.2rem;
+		line-height: 3.5rem;
 
-        a {
-            color: $linkColor;
-        }
-    } 
+		a {
+			color: $linkColor;
+			text-decoration: none;
+			border-bottom: 1px solid $linkColor;
+		}
+	}
 
-    .quote-image { 
-        background: url(./images/arnav-luthra-back-end-development.png); 
-        margin: 5rem 0; 
-        background-position: center; 
-        background-size: 100%; 
-        height: 25rem; 
-        object-fit: contain;
-    }
+	.quote-image {
+		background: url(./images/arnav-luthra-back-end-development.png);
+		margin: 5rem 0;
+		background-position: center;
+		background-size: 100%;
+		height: 25rem;
+		object-fit: contain;
+	}
 }
