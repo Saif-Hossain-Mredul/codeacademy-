@@ -309,6 +309,40 @@
   font-weight: 600;
 }
 
+.comments-discussion .discussion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2rem;
+}
+
+.comments-discussion .discussion .discussion-icon {
+  height: 5rem;
+  width: 5rem;
+  background-color: #E2E7EA;
+  display: -ms-grid;
+  display: grid;
+  position: relative;
+  margin-right: 1rem;
+  border-radius: 3px;
+}
+
+.comments-discussion .discussion .discussion-icon span {
+  position: absolute;
+  bottom: 0;
+  font-size: 5rem;
+  color: #939EA7;
+}
+
+.comments-discussion .discussion .discussion-input .input {
+  height: 5rem;
+  border-radius: 3px;
+  border: 2px solid #bcc0c2;
+  width: 79rem;
+  font-size: 2rem;
+  color: #939EA7;
+}
+
 * {
   margin: 0;
   padding: 0;
