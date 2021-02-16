@@ -1,0 +1,52 @@
+.testimonial-bio { 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem 23%; 
+    width: 85rem;
+
+    .bio-image { 
+        width: 5rem; 
+        height: 5rem; 
+
+        img { 
+            width: 100%; 
+            border-radius: 200px;
+        }
+    } 
+
+    .bio-description { 
+        margin: 0 1.60rem;
+        .name { 
+            font-size: 2rem;
+        } 
+
+        .bio {
+            color: #738A94; 
+            font-size: 1.4rem; 
+            font-weight: 700; 
+            line-height: 2rem;
+        }
+    } 
+
+    .read-more { 
+        margin: 0 1rem; 
+
+        button { 
+            background: none; 
+            white-space: nowrap;
+            font-size: 1rem; 
+            font-weight: 700;  
+            color: #738A94;  
+            border: 1px solid #738A94;
+            border-radius: 200px; 
+            padding: 0.75rem 1.5rem; 
+
+            &:hover { 
+                cursor: pointer; 
+                color: $hoverTextColor; 
+                border-color: $hoverTextColor;
+            }
+        }
+    }
+}
