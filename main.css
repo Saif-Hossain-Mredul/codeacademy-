@@ -260,6 +260,55 @@
   color: #F05F70;
 }
 
+.comments-discussion .share-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+.comments-discussion .share-bar .share-bar-left-side .share-bar-item {
+  color: #5e7078;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.comments-discussion .share-bar .share-bar-left-side .icon {
+  margin-right: 0.4rem;
+}
+
+.comments-discussion .share-bar .share-bar-left-side .recommend {
+  margin-right: 1.2rem;
+}
+
+.comments-discussion .share-bar .share-bar-left-side .recommend .heart {
+  color: #F05F70;
+}
+
+.comments-discussion .share-bar .share-bar-left-side .twitter {
+  background: #18B2F0;
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+  margin-right: 0.4rem;
+}
+
+.comments-discussion .share-bar .share-bar-left-side .facebook {
+  background: #3B5998;
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+}
+
+.comments-discussion .share-bar .share-bar-right-side span {
+  color: #5e7078;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
 * {
   margin: 0;
   padding: 0;
