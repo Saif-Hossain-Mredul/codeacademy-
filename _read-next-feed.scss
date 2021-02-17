@@ -150,7 +150,8 @@
 		background-color: white; 
         box-shadow: 1px 1px 10px 1px rgb(208, 208, 208);
         border-radius: 5px;
-        height: 40rem;
+        height: 40rem; 
+        position: relative;
         
         &:hover {
             box-shadow: 1px 1px 10px 4px rgb(208, 208, 208);
@@ -163,6 +164,44 @@
                 width: 100%;
                 background-size: 100%;
                 object-fit: cover; 
+            }
+        }
+
+        .post-card-content {
+            padding: 2.1rem;
+
+            .post-card-content-link {
+                .post-card-header {
+                    .post-card-tags {
+                        text-transform: uppercase;
+                        color: #ffc740; 
+                        font-size: 1.2rem;
+                        font-weight: 700;
+                    }
+
+                    .post-card-title {
+                        color: black;
+                    font-size: 2rem;
+                    font-weight: 700;
+                    }
+                }
+
+                .post-card-excerpt {
+                    color: black;
+                    font-size: 1.4rem;
+                    margin-top: 1rem; 
+                    line-height: 2.5rem;
+                }
+            }
+        }
+
+        .post-card-footer {
+            position: absolute;
+            bottom: 0;
+            margin-bottom: 2.1rem;
+
+            .author-profile-image {
+                
             }
         }
 	}

@@ -552,6 +552,7 @@
           box-shadow: 1px 1px 10px 1px #d0d0d0;
   border-radius: 5px;
   height: 40rem;
+  position: relative;
 }
 
 .read-next-feed .bottom-post-card:hover {
@@ -566,6 +567,36 @@
   background-size: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.read-next-feed .bottom-post-card .post-card-content {
+  padding: 2.1rem;
+}
+
+.read-next-feed .bottom-post-card .post-card-content .post-card-content-link .post-card-header .post-card-tags {
+  text-transform: uppercase;
+  color: #ffc740;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.read-next-feed .bottom-post-card .post-card-content .post-card-content-link .post-card-header .post-card-title {
+  color: black;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.read-next-feed .bottom-post-card .post-card-content .post-card-content-link .post-card-excerpt {
+  color: black;
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  line-height: 2.5rem;
+}
+
+.read-next-feed .bottom-post-card .post-card-footer {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 2.1rem;
 }
 
 * {
