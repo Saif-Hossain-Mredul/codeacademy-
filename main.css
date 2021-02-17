@@ -597,6 +597,28 @@
   position: absolute;
   bottom: 0;
   margin-bottom: 2.1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.read-next-feed .bottom-post-card .post-card-footer .author-profile-image {
+  background: url(./images/lillian_bio_new.jpg);
+  height: 2.75rem;
+  width: 2.75rem;
+  border-radius: 100px;
+  background-size: 100% 100%;
+  margin-right: 1rem;
+}
+
+.read-next-feed .bottom-post-card .post-card-footer .post-card-author {
+  font-size: 1.35rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  vertical-align: middle;
 }
 
 * {
