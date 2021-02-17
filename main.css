@@ -559,6 +559,15 @@
           box-shadow: 1px 1px 10px 4px #d0d0d0;
 }
 
+.read-next-feed .bottom-post-card .post-card-image-link .post-card-image {
+  background: url(./images/learning-to-code-for-product-managers.png) no-repeat;
+  height: 22rem;
+  width: 100%;
+  background-size: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 * {
   margin: 0;
   padding: 0;

@@ -155,5 +155,15 @@
         &:hover {
             box-shadow: 1px 1px 10px 4px rgb(208, 208, 208);
         }
+
+        .post-card-image-link {
+            .post-card-image {
+                background: url(./images/learning-to-code-for-product-managers.png) no-repeat;
+                height: 22rem;
+                width: 100%;
+                background-size: 100%;
+                object-fit: cover; 
+            }
+        }
 	}
 }
