@@ -297,12 +297,27 @@
   color: #f05f70;
 }
 
+.comments-discussion .share-bar .share-bar-left-side .recommend a {
+  color: #5e7078;
+}
+
+.comments-discussion .share-bar .share-bar-left-side .recommend a:hover {
+  color: black;
+}
+
 .comments-discussion .share-bar .share-bar-left-side .twitter {
   background: #18b2f0;
-  color: white;
   padding: 0.2rem 0.5rem;
   border-radius: 3px;
   margin-right: 0.4rem;
+}
+
+.comments-discussion .share-bar .share-bar-left-side .twitter a {
+  color: white;
+}
+
+.comments-discussion .share-bar .share-bar-left-side .twitter:hover {
+  opacity: 0.7;
 }
 
 .comments-discussion .share-bar .share-bar-left-side .facebook {
@@ -310,6 +325,14 @@
   color: white;
   padding: 0.2rem 0.5rem;
   border-radius: 3px;
+}
+
+.comments-discussion .share-bar .share-bar-left-side .facebook a {
+  color: white;
+}
+
+.comments-discussion .share-bar .share-bar-left-side .facebook:hover {
+  opacity: 0.8;
 }
 
 .comments-discussion .share-bar .share-bar-right-side span {
@@ -331,6 +354,7 @@
   background-color: #e2e7ea;
   display: -ms-grid;
   display: grid;
+  place-items: center;
   position: relative;
   margin-right: 1rem;
   border-radius: 3px;
@@ -359,6 +383,10 @@
           box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 html {

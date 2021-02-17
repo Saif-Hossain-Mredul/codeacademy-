@@ -71,17 +71,33 @@
 
 			.recommend {
 				margin-right: 1.2rem;
+
 				.heart {
 					color: #f05f70;
+				}
+
+				a {
+					color: #5e7078; 
+
+					&:hover {
+						color: black;
+					}
 				}
 			}
 
 			.twitter {
 				background: #18b2f0;
-				color: white;
 				padding: 0.2rem 0.5rem;
 				border-radius: 3px;
-				margin-right: 0.4rem;
+				margin-right: 0.4rem; 
+
+				a {
+					color: white;
+				}
+
+				&:hover {
+					opacity: 0.7;
+				}
 			}
 
 			.facebook {
@@ -89,6 +105,14 @@
 				color: white;
 				padding: 0.2rem 0.5rem;
 				border-radius: 3px;
+
+				a {
+					color: white;
+				}
+
+				&:hover {
+					opacity: 0.8;
+				}
 			}
 		}
 
@@ -110,6 +134,7 @@
 			width: 5rem;
 			background-color: #e2e7ea;
 			display: grid;
+			place-items: center;
 			position: relative;
 			margin-right: 1rem;
 			border-radius: 3px;
