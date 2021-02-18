@@ -16,11 +16,12 @@
 }
 
 .nav-bar .nav-bar-logo {
-  height: 3rem;
-  width: 10rem;
+  height: 4rem;
+  width: 11rem;
   -o-object-fit: cover;
      object-fit: cover;
-  margin-top: 0.9rem;
+  margin-top: 1.8rem;
+  padding-right: 1rem;
 }
 
 .nav-bar .nav-bar-logo img {
@@ -29,12 +30,12 @@
 
 .nav-bar .nav-bar-links a {
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 700;
   color: #141C3A;
   margin-right: 2.5rem;
-  word-spacing: 0.03rem;
-  letter-spacing: 0.03rem;
+  word-spacing: 0.07rem;
+  letter-spacing: 0.1rem;
   opacity: 0.8;
 }
 
@@ -49,7 +50,7 @@
 .date-header-intro-image .date {
   color: #141C3A;
   font-size: 1.4rem;
-  font-weight: 600;
+  font-weight: 700;
   margin: 2rem 0;
   text-align: center;
 }
