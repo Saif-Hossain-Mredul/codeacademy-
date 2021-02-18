@@ -621,6 +621,12 @@
   vertical-align: middle;
 }
 
+.site-footer {
+  height: 6rem;
+  width: 100%;
+  background-color: #141c3a;
+}
+
 * {
   margin: 0;
   padding: 0;
