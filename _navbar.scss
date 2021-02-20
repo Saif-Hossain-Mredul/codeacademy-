@@ -8,7 +8,11 @@
 	background-color: white;
 	border-bottom: 1px solid rgb(233, 233, 233);
 	padding: 0 20%;
-	margin-bottom: 10rem;
+	margin-bottom: 10rem; 
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
 
 	.nav-bar-logo {
 		height: 4rem;
