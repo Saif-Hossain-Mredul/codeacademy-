@@ -41,6 +41,8 @@
   word-spacing: 0.07rem;
   letter-spacing: 0.1rem;
   opacity: 0.8;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .nav-bar .nav-bar-links a:hover {
