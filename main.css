@@ -9,7 +9,6 @@
       -ms-flex-align: center;
           align-items: center;
   background-color: white;
-  border-bottom: 1px solid #e9e9e9;
   margin-bottom: 10rem;
   position: fixed;
   top: 0;
@@ -42,7 +41,7 @@
   -o-object-fit: cover;
      object-fit: cover;
   margin-top: 1.8rem;
-  padding-right: 1rem;
+  margin-right: 12rem;
 }
 
 .nav-bar .nav-bar-elements .nav-bar-logo img {
