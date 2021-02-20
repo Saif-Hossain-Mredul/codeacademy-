@@ -32,7 +32,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 0 20%;
+  padding: 0 10%;
 }
 
 .nav-bar .nav-bar-elements .nav-bar-logo {

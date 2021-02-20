@@ -1,7 +1,6 @@
 window.addEventListener("scroll", moveScrollIndicator)
 
 const scrollElement = document.querySelector('#scrollIndicator') 
-
 const maxHeight = window.document.body.scrollHeight - window.innerHeight
 
 
