@@ -10,7 +10,6 @@
           align-items: center;
   background-color: white;
   border-bottom: 1px solid #e9e9e9;
-  padding: 0 20%;
   margin-bottom: 10rem;
   position: fixed;
   top: 0;
@@ -21,6 +20,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  z-index: 1000;
 }
 
 .nav-bar .nav-bar-elements {
@@ -33,6 +33,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding: 0 20%;
 }
 
 .nav-bar .nav-bar-elements .nav-bar-logo {
@@ -66,14 +67,16 @@
 }
 
 .nav-bar .line {
-  height: 10px;
+  height: 3px;
   background: #6400E4;
   width: 0%;
-  z-index: 1;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
 }
 
 .date-header-intro-image {
   margin: 5rem 27%;
+  margin-top: 15rem;
 }
 
 .date-header-intro-image .date {
